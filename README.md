@@ -1,13 +1,14 @@
 
 #encTitleKeys.bin-Updater
-A tool to easily update the encTitleKeys.bin for [freeShop](https://github.com/Cruel/freeShop) based on [lpp-3ds](https://github.com/Rinnegatamante/lpp-3ds)
+An updater for encTitleKeys.bin for use with [freeShop](https://github.com/Cruel/freeShop).
+Based on [lpp-3ds](https://github.com/Rinnegatamante/lpp-3ds)
 
 ##Usage
 Download the .cia file from [releases](/releases) and install it with your favourite .cia installer, like FBI. If you're using an app like FBI, you can also just scan the QR code next to the desired release.
 
-Open up the App and select `Download latest .bin`.
+Open up the app and select `Download latest .bin`.
 
-Note: [v1](https://github.com/MatMaf/encTitleKeys.bin-Updater/releases/tag/v1.0) is the old weeaboo version, if you have a desire to use that.
+Note: [v1](https://github.com/MatMaf/encTitleKeys.bin-Updater/releases/tag/v1.0) is the old weeaboo version, if you want to use that.
 
 ##Credits
 
