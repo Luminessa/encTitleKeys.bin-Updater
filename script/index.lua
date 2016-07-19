@@ -55,9 +55,6 @@ function main()
         	if System.doesFileExist("/freeShop/encTitleKeys.bin") then
         		System.deleteFile("/freeShop/encTitleKeys.bin")
         	end
-        	if System.doesFileExist("/encTitleKeysTemp.bin") then
-        		System.deleteFile("/encTitleKeysTemp.bin")
-        	end
         	System.renameFile("/encTitleKeysTemp.bin", "/freeShop/encTitleKeys.bin")
         	Screen.waitVblankStart()
             Screen.flip()
