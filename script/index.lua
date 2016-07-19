@@ -42,7 +42,7 @@ function main()
     Screen.refresh()
     Screen.clear(TOP_SCREEN)
     Screen.debugPrint(5,5, "encTitleKeysUpdater for freeShop", yellow, TOP_SCREEN)
-    Screen.debugPrint(30,200, "v1.3 beta", white, TOP_SCREEN)
+    Screen.debugPrint(30,200, "v1.3", white, TOP_SCREEN)
     Screen.debugPrint(30,215, "by MatMaf", white, TOP_SCREEN)
     Screen.debugPrint(5,5, motd, white, BOTTOM_SCREEN)
     Screen.flip()
@@ -54,6 +54,9 @@ function main()
         if System.doesFileExist("/encTitleKeysTemp.bin") then
         	if System.doesFileExist("/freeShop/encTitleKeys.bin") then
         		System.deleteFile("/freeShop/encTitleKeys.bin")
+        	end
+        	if System.doesFileExist("/encTitleKeysTemp.bin") then
+        		System.deleteFile("/encTitleKeysTemp.bin")
         	end
         	System.renameFile("/encTitleKeysTemp.bin", "/freeShop/encTitleKeys.bin")
         	Screen.waitVblankStart()
