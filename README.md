@@ -1,5 +1,5 @@
 
-#encTitleKeys.bin-Updater
+#encTitleKeysUpdater
 An updater for encTitleKeys.bin for use with [freeShop](https://github.com/Cruel/freeShop).
 Based on [lpp-3ds](https://github.com/Rinnegatamante/lpp-3ds)
 
